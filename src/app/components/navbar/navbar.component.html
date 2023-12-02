@@ -1,0 +1,37 @@
+<nav
+  class="w-full flex-center fixed top-0 border-b-2 border-black-200 bg-black-100 py-7 text-white"
+>
+  <div class="w-full flex-between max-w-screen-2xl px-6 xs:px-8 sm:px-16">
+    <a href="/">
+      <spartan-avatar
+        class="h-6"
+        [src]="'../../../assets/avatar.webp'"
+        [alt]="'user_avatar'"
+      ></spartan-avatar>
+    </a>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="h-8 md:hidden"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+      />
+    </svg>
+
+    <ul class="gap-x-3 md:gap-10 hidden md:flex">
+      <li class="body-text text-gradient_purple-blue !font-bold">
+        <a href="/">Home</a>
+      </li>
+      <li class="body-text !font-normal"><a href="">Work</a></li>
+      <li class="body-text !font-normal"><a href="">Blogs</a></li>
+      <li class="body-text !font-normal"><a href="">About Me</a></li>
+      <li class="body-text !font-normal"><a href="">Contact</a></li>
+    </ul>
+  </div>
+</nav>
