@@ -234,3 +234,15 @@
   scrollbar-width: none;
   /* Firefox */
 }
+
+.bg-center {
+  background-position: 50%;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-banner {
+  background-image: url(assets/banner.svg);
+}

@@ -27,6 +27,9 @@
       ],
       "@spartan-ng/ui-avatar-helm": [
         ".\\src/app/components/spartan-ui/ui-avatar-helm/src/index.ts"
+      ],
+      "@spartan-ng/ui-input-helm": [
+        ".\\src/app/components/spartan-ui/ui-input-helm/src/index.ts"
       ]
     }
   },

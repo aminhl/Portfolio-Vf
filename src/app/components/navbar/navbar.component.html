@@ -27,10 +27,22 @@
     </svg>
 
     <ul class="gap-x-3 md:gap-10 hidden md:flex">
-      <li class="body-text text-gradient_purple-blue !font-bold">
-        <a href="/">Home</a>
+      <li class="body-text">
+        <a
+          [routerLink]="''"
+          [routerLinkActive]="'!font-bold text-gradient_purple-blue'"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Home</a
+        >
       </li>
-      <li class="body-text !font-normal"><a href="">Work</a></li>
+      <li class="body-text !font-normal">
+        <a
+          [routerLink]="'work'"
+          [routerLinkActive]="'!font-bold text-gradient_purple-blue'"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Work</a
+        >
+      </li>
       <li class="body-text !font-normal"><a href="">Blogs</a></li>
       <li class="body-text !font-normal"><a href="">About Me</a></li>
       <li class="body-text !font-normal"><a href="">Contact</a></li>

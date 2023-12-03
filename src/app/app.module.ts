@@ -9,9 +9,16 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { NgxTypedJsModule } from 'ngx-typed-js';
 import { SpartanBtnComponent } from './components/spartan-btn/spartan-btn.component';
+import { WorkComponent } from './components/work/work.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent, HomeComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    FooterComponent,
+    HomeComponent,
+    WorkComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
