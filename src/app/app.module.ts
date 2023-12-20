@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NgxTypedJsModule } from 'ngx-typed-js';
 import { SpartanBtnComponent } from './components/spartan-btn/spartan-btn.component';
 import { WorkComponent } from './components/work/work.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { WorkComponent } from './components/work/work.component';
     FooterComponent,
     HomeComponent,
     WorkComponent,
+    BlogsComponent,
   ],
   imports: [
     BrowserModule,

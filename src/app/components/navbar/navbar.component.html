@@ -43,7 +43,14 @@
           >Work</a
         >
       </li>
-      <li class="body-text !font-normal"><a href="">Blogs</a></li>
+      <li class="body-text !font-normal">
+        <a
+          [routerLink]="'blogs'"
+          [routerLinkActive]="'!font-bold text-gradient_purple-blue'"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Blogs</a
+        >
+      </li>
       <li class="body-text !font-normal"><a href="">About Me</a></li>
       <li class="body-text !font-normal"><a href="">Contact</a></li>
     </ul>
